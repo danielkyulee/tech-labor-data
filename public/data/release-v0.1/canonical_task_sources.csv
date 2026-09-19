@@ -1,0 +1,13 @@
+source,url,use_in_pilot,access_date,license_or_owner
+O*NET 30.3 Task Statements,https://www.onetcenter.org/dictionary/30.3/csv/task_statements.html,"Original task wording, IDs, raw task types, dates, and domain sources",2026-08-18,O*NET 30.3 / CC BY 4.0
+O*NET 30.3 Task Ratings,https://www.onetcenter.org/dictionary/30.3/csv/task_ratings.html,"Importance, relevance, frequency, and suppression metadata",2026-08-18,O*NET 30.3 / CC BY 4.0
+O*NET 30.3 Emerging Tasks,https://www.onetcenter.org/dictionary/30.3/csv/emerging_tasks.html,Proposed new or revised statements retained separately,2026-08-18,O*NET 30.3 / CC BY 4.0
+O*NET 30.3 Tasks to DWAs,https://www.onetcenter.org/dictionary/30.3/csv/tasks_to_dwas.html,Semantic cross-check using Detailed Work Activities,2026-08-18,O*NET 30.3 / CC BY 4.0
+O*NET Work Activities Project,https://www.onetcenter.org/reports/DWA_2014.html,Methodological context for qualitative task clustering,2026-08-18,Official O*NET technical report
+O*NET Database Content License,https://www.onetcenter.org/license_db.html,Attribution and license requirements,2026-08-18,CC BY 4.0
+BLS Accountants and Auditors,https://www.bls.gov/ooh/business-and-financial/accountants-and-auditors.htm,Validate broad responsibilities and occupational variants,2026-08-18,U.S. Bureau of Labor Statistics
+BLS Software Developers,https://www.bls.gov/ooh/computer-and-information-technology/software-developers.htm,Validate software lifecycle and developer role variants,2026-08-18,U.S. Bureau of Labor Statistics
+BLS Physicians and Surgeons,https://www.bls.gov/ooh/healthcare/physicians-and-surgeons.htm,Validate diagnostic and interventional radiology distinction,2026-08-18,U.S. Bureau of Labor Statistics
+BLS Carpenters,https://www.bls.gov/ooh/construction-and-extraction/carpenters.htm,"Validate general, rough, flooring, and other carpentry variants",2026-08-18,U.S. Bureau of Labor Statistics
+BLS Heavy Truck Drivers,https://www.bls.gov/ooh/transportation-and-material-moving/heavy-and-tractor-trailer-truck-drivers.htm,Validate the occupation-level freight-transport outcome and driver variations,2026-08-18,U.S. Bureau of Labor Statistics
+

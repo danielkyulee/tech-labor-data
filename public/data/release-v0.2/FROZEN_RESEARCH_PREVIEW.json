@@ -1,0 +1,30 @@
+{
+  "archive_sha256": "6b52f8664ce83ef2c9e022be64373649f1714f11eac4f52df6ff119a9d45bc22",
+  "coverage": {
+    "canonical_tasks": 114,
+    "companies": 2771,
+    "design_pending_assessments": 0,
+    "non_numeric_product_task_assessments": 1494,
+    "numeric_product_task_assessments": 1929,
+    "occupations_assessed": 80,
+    "product_discovery_audit_rows": 19754,
+    "product_search_run_rows": 1688,
+    "product_task_assessments": 3423,
+    "product_task_mappings": 3402,
+    "products": 3024,
+    "rated_with_ie_assessments": 1494
+  },
+  "file_manifest_sha256": "e7b01a3ddcbe4e8ba3d3b204f12c9377a5c30d144a9212b03fd1bcd89396eda8",
+  "freeze_date": "2026-08-21",
+  "freeze_eligibility": {
+    "all_current_inventory_design_coding_complete": true,
+    "frozen_occupation_count_is_80": true,
+    "frozen_task_count_is_114": true,
+    "mapping_and_design_keys_match": true,
+    "structural_qa_passes": true
+  },
+  "release_id": "v0.2-initial-research-preview",
+  "release_manifest_sha256": "d1e01cf77dbdaafeaeead967b34f056e5ed883e4c3144c6d2caed37de8862674",
+  "snapshot_date": "2026-08-21",
+  "status": "frozen_research_preview_not_publication_validated"
+}

@@ -1,0 +1,38 @@
+{
+  "generated_date": "2026-09-03",
+  "assessment_date_label": "29 August 2026",
+  "occupations": 1016,
+  "job_roles": 1216,
+  "industry_groups": 10,
+  "charted_job_roles": 1161,
+  "review_flagged_roles": 55,
+  "product_role_records": 8501,
+  "product_collection_phases": {
+    "earlier_inventory": 3705,
+    "full_occupation_expansion": 4796
+  },
+  "distinct_products": 6566,
+  "companies": 5670,
+  "roles_with_products": 1137,
+  "roles_without_qualifying_products": 24,
+  "top_employment_occupations": 200,
+  "top_employment_job_roles": 354,
+  "top_employment_cutoff": 167000,
+  "employment_count_reference_year": 2024,
+  "median_wage_reference_year": 2025,
+  "capability_distribution": {
+    "count": 1161,
+    "mean": 2.555,
+    "median": 2.5,
+    "minimum": 1.744,
+    "maximum": 4.0
+  },
+  "product_distribution": {
+    "count": 8501,
+    "mean": 1.527,
+    "median": 1.55,
+    "minimum": 0.15,
+    "maximum": 4.0
+  },
+  "product_rating_definition": "Derived display index: AIDA product-autonomy ratings weighted by the frozen workshare weights for the same job role."
+}

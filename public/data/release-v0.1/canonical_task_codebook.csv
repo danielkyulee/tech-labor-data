@@ -1,0 +1,20 @@
+field,allowed_values_or_type,definition
+canonical_occupational_task,Derived unit,"A researcher-constructed grouping of included source tasks describing one independently meaningful occupational output, separately assignable responsibility, or documented occupation variant."
+responsibility_role,primary_output | enabling_support,Whether the canonical task produces an occupational output or enables other outputs.
+population_scope,broad | occupation_variant,Whether the responsibility is broadly characteristic or concentrated in a documented role or specialty.
+canonical_inclusion_status,included | excluded,Whether the source statement enters a canonical occupational task. Every source statement remains in the crosswalk.
+exclusion_reason,Code or blank,Required when canonical_inclusion_status is excluded; explains why the source statement falls outside the accepted canonical outcomes.
+task_type_raw,Core | Supplemental | blank,O*NET Task Statements field preserved exactly; blank is not renamed in the raw field.
+rating_status,rated | established_unrated | emerging_proposal,Researcher-derived status distinguishing available incumbent ratings from established unrated and proposed emerging items.
+provisional_source,TRUE | FALSE,TRUE for O*NET Emerging Tasks proposals. Provisional items do not enter a primary estimate until corroborated or adopted.
+home_canonical_task_id,Canonical task ID or blank,Required for included source statements; blank for explicitly excluded source statements.
+home_mapping_relation,central | enabling | blank,Whether an included source task directly expresses the canonical output or enables it; blank when excluded.
+secondary_candidate_canonical_task_ids,Zero or more IDs,Structured pointer to other plausible canonical assignments; details appear in CT_Secondary_Mappings.
+review_flag,TRUE | FALSE,TRUE when the proposed home assignment or boundary is genuinely contestable.
+importance_mean_1_5,1–5 or blank,O*NET mean importance rating when available; not a workload share.
+relevance_pct,0–100 or blank,O*NET percentage rating the task relevant when available.
+frequency_mean_category_1_7,1–7 or blank,"Derived mean of O*NET frequency-category distribution. It measures frequency category, not time spent."
+canonical_task_set_version,Version string,Version of the entire occupation-level partition. Ratings must cite this version.
+construction_blinding_status,non_blinded_pilot | blinded,Whether constructors had prior exposure to AI or product evidence for the occupation.
+review_decision,Accept | Revise | Discuss,User review field; it does not automatically alter the main research dataset.
+

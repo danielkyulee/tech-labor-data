@@ -1,0 +1,177 @@
+{
+  "coverage": {
+    "canonical_tasks": 114,
+    "companies": 2771,
+    "design_pending_assessments": 0,
+    "non_numeric_product_task_assessments": 1494,
+    "numeric_product_task_assessments": 1929,
+    "occupations_assessed": 80,
+    "product_discovery_audit_rows": 19754,
+    "product_search_run_rows": 1688,
+    "product_task_assessments": 3423,
+    "product_task_mappings": 3402,
+    "products": 3024,
+    "rated_with_ie_assessments": 1494
+  },
+  "coverage_claim": "A frozen, auditable lower-bound inventory of eligible products identified under the documented public-source search through the snapshot date. It is not a complete global census; task-level coverage and saturation status must accompany every use.",
+  "data_quality": {
+    "audit_open_provisional_software_products": 0,
+    "canonical_task_duplicate_ids_suppressed": 0,
+    "capability_evidence_duplicate_ids_suppressed": 4,
+    "company_identity_product_splits_applied": 2,
+    "company_identity_retirements_applied": 5,
+    "orphan_product_discovery_hits": 0,
+    "product_eligibility_exclusions_applied": 1,
+    "product_unit_consolidations_applied": 44,
+    "product_unit_reviewed_companies": 165,
+    "product_unit_reviewed_products": 465,
+    "rating_four_gate_conflicts": 0,
+    "selected_evidence_rating_mismatches": 0,
+    "signoff_evidence_duplicate_ids_suppressed": 0,
+    "source_neutral_id_crosswalk_sha256": "1fdb931ec9328d25d62c535fe80c804cd9486d16a1afbca5a8d0abdcb40f1ab9",
+    "task_scope_post_rating_completion_corrections": 5,
+    "unresolved_global_company_identity_collisions": 0,
+    "unresolved_global_product_identity_collisions": 0,
+    "unsaturated_tasks": 114
+  },
+  "design_sources": [
+    {
+      "assessment_rows": 219,
+      "evidence_rows": 1499,
+      "priority": 10,
+      "review_status": "live_workbook_snapshot",
+      "source_label": "live_calibration"
+    },
+    {
+      "assessment_rows": 56,
+      "evidence_rows": 280,
+      "priority": 40,
+      "review_status": "root_reviewed_calibration_draft",
+      "source_label": "radiology_root_reviewed_draft"
+    },
+    {
+      "assessment_rows": 100,
+      "evidence_rows": 500,
+      "priority": 40,
+      "review_status": "root_reviewed_calibration_draft",
+      "source_label": "w12_root_reviewed_draft"
+    },
+    {
+      "assessment_rows": 361,
+      "evidence_rows": 1805,
+      "priority": 40,
+      "review_status": "root_reviewed_calibration_draft",
+      "source_label": "w10_w11_root_reviewed_draft"
+    },
+    {
+      "assessment_rows": 301,
+      "evidence_rows": 1505,
+      "priority": 40,
+      "review_status": "root_reviewed_calibration_draft",
+      "source_label": "w06_w08_root_reviewed_draft"
+    },
+    {
+      "assessment_rows": 390,
+      "evidence_rows": 1950,
+      "priority": 40,
+      "review_status": "root_reviewed_calibration_draft",
+      "source_label": "w04_w09_root_reviewed_draft"
+    },
+    {
+      "assessment_rows": 392,
+      "evidence_rows": 1960,
+      "priority": 40,
+      "review_status": "root_reviewed_calibration_draft",
+      "source_label": "w01_w05_root_reviewed_draft"
+    },
+    {
+      "assessment_rows": 1,
+      "evidence_rows": 5,
+      "priority": 50,
+      "review_status": "root_reviewed_calibration_draft",
+      "source_label": "root_single_row_adjudications"
+    },
+    {
+      "assessment_rows": 1777,
+      "evidence_rows": 8885,
+      "priority": 60,
+      "review_status": "root_reviewed_calibration_draft",
+      "source_label": "swd_v034_frozen_lower_bound"
+    },
+    {
+      "assessment_rows": 0,
+      "evidence_rows": 0,
+      "priority": 0,
+      "review_status": "not_numeric_design_assessment",
+      "source_label": "explicit_design_pending"
+    },
+    {
+      "duplicate_assessment_ids_suppressed": 0,
+      "duplicate_evidence_ids_suppressed": 0,
+      "selected_assessment_rows": 3425,
+      "selected_evidence_rows": 17127,
+      "selection_result": true
+    }
+  ],
+  "freeze_date": "2026-08-21",
+  "freeze_eligibility": {
+    "all_current_inventory_design_coding_complete": true,
+    "frozen_occupation_count_is_80": true,
+    "frozen_task_count_is_114": true,
+    "mapping_and_design_keys_match": true,
+    "structural_qa_passes": true
+  },
+  "gap_assessment_status": {
+    "directional_only": 1238,
+    "interpretable": 264,
+    "not_comparable": 1921
+  },
+  "notes": [
+    "Explicit design-pending rows preserve verified product-task mappings without treating missing coding as zero; separately coded IE cells represent insufficient product-design evidence, not unfinished inventory coding.",
+    "Only numeric product-design assessments may enter stage-gap calculations.",
+    "Gap = AI capability minus product design.",
+    "Five task scopes absent from the live sheet were reconstructed from accepted canonical definitions after the corresponding capability ratings; they require independent revalidation.",
+    "Four identical duplicate capability-evidence rows were suppressed in this candidate view without deleting the source-sheet rows."
+  ],
+  "product_assessment_status": {
+    "calibration_draft": 1986,
+    "needs_adjudication": 1437
+  },
+  "publication_validation_status": "not_publication_validated",
+  "release_id": "v0.2-initial-research-preview",
+  "release_type": "research_preview",
+  "required_limitations": [
+    "The product inventories are verified lower bounds, not complete global censuses; task-level saturation status must accompany analysis.",
+    "The canonical tasks, capability ratings, product-design ratings, and signoff codes are non-blinded calibration drafts without completed inter-rater reliability testing.",
+    "A product-design score of 4 never establishes product-universe completeness and never ends product discovery.",
+    "Coded IE values record insufficient evidence and are not zeros; they are excluded from numeric gap calculations.",
+    "The first product-search implementation is English-language and U.S.-availability focused even when included companies are based elsewhere."
+  ],
+  "snapshot_date": "2026-08-21",
+  "status": "frozen_research_preview_not_publication_validated",
+  "structural_qa": {
+    "capability_task_count_is_114": true,
+    "catalog_mapping_keys_equal_design_mapping_keys": true,
+    "company_ids_are_source_neutral_and_unique": true,
+    "design_assessment_ids_unique": true,
+    "every_design_assessment_has_evidence": true,
+    "every_numeric_assessment_has_four_selected_stage_evidence_rows": true,
+    "every_task_has_explicit_saturation_status": true,
+    "main_rows_equal_design_rows": true,
+    "mapping_product_foreign_keys_valid": true,
+    "multiple_configuration_rows_allowed_with_unique_assessment_ids": true,
+    "no_audit_open_provisional_software_products": true,
+    "no_orphan_design_evidence": true,
+    "no_rating_four_selected_evidence_has_a_documented_human_gate": true,
+    "no_unresolved_global_company_identity_collisions": true,
+    "no_unresolved_global_product_identity_collisions": true,
+    "parent_company_foreign_keys_valid": true,
+    "product_company_foreign_keys_valid": true,
+    "product_ids_are_source_neutral_unique_and_end_prod": true,
+    "release_product_foreign_keys_valid": true,
+    "release_provider_company_foreign_keys_valid": true,
+    "selected_stage_evidence_matches_final_numeric_rating": true,
+    "signoff_task_count_is_114": true,
+    "source_neutral_id_crosswalk_matches_release_entities": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "release_id": "v0.1-pilot",
+  "snapshot_date": "2026-08-19",
+  "source": "Research Dataset working Google Sheet",
+  "source_modified_at": "2026-08-19T21:26:22.544Z",
+  "status": "pilot_not_publication_validated",
+  "coverage": {
+    "occupations_assessed": 5,
+    "canonical_tasks": 13,
+    "canonical_tasks_with_product_mappings": 12,
+    "products": 44,
+    "companies": 41,
+    "product_task_assessments": 49
+  },
+  "gap_assessment_status": {
+    "interpretable": 10,
+    "directional_only": 25,
+    "not_comparable": 14
+  },
+  "notes": [
+    "This is a frozen pilot snapshot, not a live connection to the working Google Sheet.",
+    "Numerical gap summaries should default to interpretable rows.",
+    "Directional-only rows should be reported separately and not-comparable rows excluded from numerical gap summaries.",
+    "The product search is a verified first wave and not a complete census of AI products.",
+    "The compiled pilot has not yet been assigned a publication license. Source-specific rights and attribution still apply."
+  ]
+}

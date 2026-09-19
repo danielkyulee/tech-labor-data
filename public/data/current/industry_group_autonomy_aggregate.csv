@@ -1,0 +1,11 @@
+industry_group,product_with_highest_autonomy,average_autonomy_all_products,median_autonomy_all_products,gap_highest_technical_capability,gap_average_technical_capability,gap_median_technical_capability,overall_ai_capability_rating,total_products,job_roles_with_products,total_job_roles
+"Finance, Insurance, Real Estate, & Leasing",1.853,1.66,1.703,0.998,1.192,1.149,2.851,578,52,54
+Professional & Business Services,1.831,1.624,1.659,0.79,0.996,0.962,2.621,1440,170,186
+Wholesale & Retail Trade,1.885,1.658,1.693,0.933,1.159,1.125,2.817,169,25,26
+Manufacturing,1.639,1.384,1.377,0.98,1.235,1.241,2.618,1037,211,219
+Government & Public Sector,1.666,1.458,1.464,0.785,0.993,0.987,2.451,905,143,151
+Healthcare & Social Assistance,1.612,1.346,1.343,0.762,1.028,1.031,2.374,1114,161,171
+Information & Tech Platforms,1.849,1.628,1.651,0.908,1.129,1.106,2.757,1581,67,71
+Construction,1.35,1.146,1.179,1.009,1.214,1.181,2.36,504,78,86
+Transportation & Warehousing,1.704,1.43,1.444,0.905,1.178,1.164,2.608,648,98,103
+"Leisure, Hospitality, & Other",1.632,1.424,1.433,0.88,1.088,1.078,2.512,525,132,149
